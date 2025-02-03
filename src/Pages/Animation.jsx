@@ -53,8 +53,8 @@ export const Animation = () => {
 
 
       {/* THE CENTER TEXT */}
-      <div style={{ zIndex:120 , inset: "20rem"}} className=" absolute text-white text-7xl flex justify-center items-center">
-          <h1>This Was fun</h1>
+      <div style={{ zIndex:120 , inset: "20rem"}} className=" absolute text-white text-2xl flex justify-center items-center">
+          <h1>Reload To Refresh</h1>
       </div>
     </div>
   );
