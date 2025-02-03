@@ -7,14 +7,14 @@ export const Animation = () => {
 
   return (
     <div 
-    className=" relative"
-    style={{ overflow: "hidden" ,   width: "100%" , height: "100vh" , objectFit: "cover" , backgroundColor : "black"}}>
+    className=" relative flex "
+    style={{ overflow: "hidden" ,   width: "100%" , height: "100vh" , objectFit: "cover" , backgroundColor : "black" , zIndex: 10}}>
       
 
 
         {/* THE NOISE AND THE OTHER RADIAL GRADIENTS */}
-      <div className=" flex justify-center items-center">
-      <svg style={{ opacity:0.2 , }} viewBox="0 0 450 250" xmlns="http://www.w3.org/2000/svg">
+      <div style={{ zIndex: 100}} className=" flex justify-center items-center">
+      <svg className=" w-[100%] h-[200%]"   style={{ opacity:0.2 , zIndex:120}} viewBox="0 0 450 250" >
         <filter id="noiseFilter">
           <feTurbulence
             type="fractalNoise"
@@ -45,6 +45,16 @@ export const Animation = () => {
         {/* GRADIANT BALL 8 */}
         <div className=" gradiantBall8"></div>
 
+      </div>
+
+
+
+
+
+
+      {/* THE CENTER TEXT */}
+      <div style={{ zIndex:120 , inset: "20rem"}} className=" absolute text-white text-7xl flex justify-center items-center">
+          <h1>This Was fun</h1>
       </div>
     </div>
   );

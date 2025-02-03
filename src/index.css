@@ -5,7 +5,7 @@
 
 
 .gradiantBall1 {
-    background: rgb(0,168,255);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(0,168,255,0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -43,7 +43,7 @@
 
 
 .gradiantBall2 {
-    background: rgb(128, 9, 240);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(101, 0, 233, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -62,7 +62,7 @@
 
 
 .gradiantBall3 {
-    background: rgb(207, 52, 5);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(255, 0, 0, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -75,22 +75,22 @@
     filter: blur(50px);
     offset-path: path('M492.961 112.147C491.663 121.035 483.708 128.649 470.122 134.743C456.562 140.825 437.534 145.327 414.389 148.069C368.105 153.553 305.47 151.987 237.462 142.061C169.454 132.135 108.984 115.734 66.1981 97.2507C44.8017 88.0076 27.8545 78.2553 16.5987 68.5509C5.32139 58.8279 -0.126426 49.2584 1.17087 40.3698C2.46816 31.4812 10.4238 23.8679 24.0097 17.7738C37.5696 11.6912 56.5972 7.18944 79.7429 4.4473C126.027 -1.03609 188.662 0.529675 256.67 10.4555C324.678 20.3813 385.147 36.7827 427.933 55.266C449.33 64.5091 466.277 74.2613 477.533 83.9658C488.81 93.6888 494.258 103.258 492.961 112.147Z');
     offset-distance: 0%;
-    animation : animation1 34s  ease-in-out 0.1s infinite alternate;
+    animation : animation1 24s  ease-in-out 0.1s infinite alternate;
     /* animation-timing-function: ease-in-out; */
 }
 
 
 
 .gradiantBall4 {
-    background: rgb(240, 224, 5);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(255, 231, 14, 0.4) 0%, rgba(0,0,0,0) 50%);
     
-    width: 60rem;
-    height: 40rem;
+    width: 80rem;
+    height: 80rem;
     position: absolute;
 
-    bottom: 30rem;
-    right: 30rem;
+    top: 20rem;
+    right: 0rem;
 
     filter: blur(50px);
     offset-path: path('M519.498 40.2294C519.891 44.2289 518.533 48.3444 515.509 52.5345C512.482 56.7281 507.805 60.9699 501.619 65.1967C489.247 73.6499 470.929 81.9837 447.999 89.7299C402.147 105.22 337.962 118.325 266.318 125.364C194.674 132.403 129.167 132.041 81.1766 125.771C57.1775 122.636 37.5873 118.027 23.8069 112.143C16.9164 109.201 11.503 105.951 7.71828 102.426C3.93666 98.905 1.80348 95.1325 1.41052 91.1331C1.01757 87.1336 2.37573 83.0181 5.39966 78.828C8.42606 74.6345 13.1034 70.3926 19.2895 66.1659C31.6613 57.7126 49.9798 49.3789 72.9098 41.6326C118.762 26.1427 182.946 13.0376 254.59 5.99832C326.234 -1.04093 391.742 -0.678337 439.732 5.59125C463.731 8.72657 483.321 13.3357 497.102 19.2194C503.992 22.1613 509.405 25.4117 513.19 28.9361C516.972 32.4575 519.105 36.23 519.498 40.2294Z');
@@ -101,11 +101,11 @@
 
 
 .gradiantBall5 {
-    background: rgb(13, 247, 52);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(213, 231, 48, 0.4) 0%, rgba(0,0,0,0) 50%);
     
-    width: 60rem;
-    height: 40rem;
+    width: 80rem;
+    height: 80rem;
     position: absolute;
 
     bottom: 10rem;
@@ -121,11 +121,11 @@
 
 
 .gradiantBall6 {
-    background: rgb(238, 165, 6);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(187, 94, 7, 0.4) 0%, rgba(0,0,0,0) 50%);
     
-    width: 60rem;
-    height: 40rem;
+    width: 80rem;
+    height: 80rem;
     position: absolute;
 
     bottom: 40rem;
@@ -134,13 +134,13 @@
     filter: blur(50px);
     offset-path: path('M519.498 40.2294C519.891 44.2289 518.533 48.3444 515.509 52.5345C512.482 56.7281 507.805 60.9699 501.619 65.1967C489.247 73.6499 470.929 81.9837 447.999 89.7299C402.147 105.22 337.962 118.325 266.318 125.364C194.674 132.403 129.167 132.041 81.1766 125.771C57.1775 122.636 37.5873 118.027 23.8069 112.143C16.9164 109.201 11.503 105.951 7.71828 102.426C3.93666 98.905 1.80348 95.1325 1.41052 91.1331C1.01757 87.1336 2.37573 83.0181 5.39966 78.828C8.42606 74.6345 13.1034 70.3926 19.2895 66.1659C31.6613 57.7126 49.9798 49.3789 72.9098 41.6326C118.762 26.1427 182.946 13.0376 254.59 5.99832C326.234 -1.04093 391.742 -0.678337 439.732 5.59125C463.731 8.72657 483.321 13.3357 497.102 19.2194C503.992 22.1613 509.405 25.4117 513.19 28.9361C516.972 32.4575 519.105 36.23 519.498 40.2294Z');
     offset-distance: 0%;
-    animation : animation1 34s  ease-in-out 0.1s infinite alternate;
+    animation : animation1 24s  ease-in-out 0.1s infinite alternate;
     /* animation-timing-function: ease-in-out; */
 }
 
 
 .gradiantBall7{
-    background: rgb(238, 165, 6);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(92, 226, 14, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
@@ -157,11 +157,11 @@
 }
 
 .gradiantBall8{
-    background: rgb(62, 182, 252);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(65, 33, 243, 0.4) 0%, rgba(0,0,0,0) 50%);
     
-    width: 60rem;
-    height: 60rem;
+    width: 80rem;
+    height: 80rem;
     position: absolute;
 
     bottom: -20rem;
@@ -170,7 +170,7 @@
     filter: blur(50px);
     offset-path: path('M63.6943 245.221C46.1082 244.991 30.2446 231.281 18.8604 209.034C7.48779 186.81 0.659147 156.19 1.10024 122.444C1.54133 88.6987 9.16798 58.2672 21.1176 36.3482C33.0794 14.4066 49.2959 1.11563 66.882 1.3455C84.4681 1.57537 100.332 15.2857 111.716 37.5324C123.089 59.7563 129.917 90.3768 129.476 124.122C129.035 157.868 121.408 188.299 109.459 210.218C97.4969 232.16 81.2804 245.451 63.6943 245.221Z');
     offset-distance: 0%;
-    animation : animation1 34s  ease-in-out 0.1s infinite alternate;
+    animation : animation1 24s  ease-in-out 0.1s infinite alternate;
 }
 
 
