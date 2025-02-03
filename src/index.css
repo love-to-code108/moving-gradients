@@ -5,7 +5,7 @@
 
 
 .gradiantBall1 {
-    background: rgb(0,168,255);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(0,168,255,0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -43,7 +43,7 @@
 
 
 .gradiantBall2 {
-    background: rgb(128, 9, 240);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(101, 0, 233, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -62,7 +62,7 @@
 
 
 .gradiantBall3 {
-    background: rgb(207, 52, 5);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(255, 0, 0, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 60rem;
@@ -82,7 +82,7 @@
 
 
 .gradiantBall4 {
-    background: rgb(240, 224, 5);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(255, 231, 14, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
@@ -101,7 +101,7 @@
 
 
 .gradiantBall5 {
-    background: rgb(13, 247, 52);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(213, 231, 48, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
@@ -121,7 +121,7 @@
 
 
 .gradiantBall6 {
-    background: rgb(238, 165, 6);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(187, 94, 7, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
@@ -140,7 +140,7 @@
 
 
 .gradiantBall7{
-    background: rgb(238, 165, 6);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(92, 226, 14, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
@@ -157,7 +157,7 @@
 }
 
 .gradiantBall8{
-    background: rgb(62, 182, 252);
+    background: rgba(62, 182, 252,0);
     background: radial-gradient(circle, rgba(65, 33, 243, 0.4) 0%, rgba(0,0,0,0) 50%);
     
     width: 80rem;
