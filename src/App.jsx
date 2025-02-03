@@ -1,10 +1,11 @@
 import './App.css'
+import { Animation } from './Pages/Animation'
 
 function App() {
   
   return (
     <div>
-        Hello world
+      <Animation/>
     </div>
   )
 }
